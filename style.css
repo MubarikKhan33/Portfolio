@@ -147,3 +147,148 @@ body {
   font-size: 15px;
   color: #253858;
 }
+
+.work {
+  padding: 114px 24px;
+  gap: 88px;
+  display: flex;
+  flex-direction: column;
+}
+
+.work .card {
+  padding: 16px;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.card h3 {
+  margin: 0;
+  padding: 0;
+  line-height: 44px;
+  font-family: Poppins, sans-serif;
+  font-size: 32px;
+  font-weight: bolder;
+  color: #172b4d;
+}
+
+.card .canopy {
+  height: 36px;
+  margin-top: -12px;
+  align-self: flex-start;
+}
+
+.card .para {
+  margin: 0;
+  line-height: 24px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #344563;
+}
+
+.card .tags {
+  height: 24px;
+  align-self: flex-start;
+}
+
+.card .see {
+  width: 126px;
+  height: 48px;
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #6070ff;
+  align-self: flex-start;
+  border-radius: 8px;
+}
+
+.see p {
+  line-height: 24px;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  color: #396df2;
+}
+
+.c-bg {
+  background-color: white;
+}
+
+.c-bg .contact {
+  height: 779px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #6070ff;
+  border-top-left-radius: 93px;
+  background-image: url("/images/contact-form-shapes-mobile.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.contact h1 {
+  margin: 0;
+  padding: 118px 0 0;
+  line-height: 52px;
+  font-family: Poppins, sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  color: white;
+}
+
+.contact p {
+  margin: 12px 0 16px;
+  padding: 0 24px;
+  text-align: center;
+  line-height: 28px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+}
+
+.contact .form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form .t {
+  width: 312px;
+  height: 48px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: none;
+  border-radius: 8px;
+  line-height: 20px;
+  font-family: Poppins, sans-serif;
+  font-family: 400;
+  font-size: 17px;
+  color: #172b4d;
+}
+
+.form #msg {
+  height: 168px;
+  margin: 0;
+  padding-top: 16px;
+  resize: none;
+}
+
+.form button {
+  width: 142px;
+  height: 48px;
+  margin-top: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  line-height: 24px;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  color: #6070ff;
+}
