@@ -1,158 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <tittle>Portfolio</tittle> -->
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio</title>
 </head>
 <body>
-    <header>
-        <div class="navBar">
-            <div class="logo">My Logo</div>
-            <div class="menuIcon">
-                <img src="/images/Icon - Menu.png " alt="menu-Icon">
-            </div>
-        </div>
-    </header>
-    <div class="Section">
-        <div class="Heading">
-            <p class="P">I'm Mubarik.
-           </br>
-           Glad to see 
-           </br>
-           you!</p>
-        </div>
-        <div class="paragraph">
-            <p class="P2">
-                I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.
-            </p>
-        </div>
-        <div class="text">
-            <p class="txt">LET'S CONNECT</p>
-        </div>
-        <div class="socialImg">
-            <img src="/images/social media icons.png" alt="social-media-Icons">
-        </div>
+  <div class="bg-wrapper">
+  <header>
+    <div class="logo">My Logo</div>
+    <div class="items-wrap">
+      <div class="items">Portfolio</div>
+      <div class="items">About</div>
+      <div class="items">Contact</div>
     </div>
-    <div class="work">
-        <div class="card">
-          <img src="/images/snap1.svg" alt="">
-          <h3>Tonic</h3>
-          <img class="canopy" src="/images/canopy.svg" alt="">
-          <p class="para">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-          <img class="tags" src="/images/tags.svg" alt="">
-          <div class="see">
-            <p>See Project</p>
-          </div>
+    <div class="icon"><img src="./images/icon - menu.svg" alt=""></div>
+  </header>
+  <div class="headline">
+    <div class="headline-section">
+      <div class="headline-wrap">
+        <div class="heading">I'm Mubarak.<br>Glad to see you!</div>
+        <div class="text-content">I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</div>
+        <div class="connect-btn">Let's Connect</div>
+        <div class="social-icons">
+          <img src="./images/twitter icon.svg" alt="">
+          <img src="./images/linkedin icon.svg" alt="">
+          <img src="./images/m icon.svg" alt="">
+          <img src="./images/github icon.svg" alt="">
+          <img src="./images/v icon.svg" alt="">
         </div>
-        <div class="card">
-          <img src="/images/snap2.svg" alt="">
-          <h3>Multi-Post<br>Stories</h3>
-          <img class="canopy" src="/images/canopy.svg" alt="">
-          <p class="para">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-          <img class="tags" src="/images/tags.svg" alt="">
-          <div class="see">
-            <p>See Project</p>
+      </div>
+    </div>
+  </div>
+  <div class="works-section">
+    <div class="card">
+      <img class="mobile" src="./images/first.svg" alt="">
+      <img class="desktop" src="./images/desktop/card 1.svg" alt="">
+      <div class="project-details">
+        <div class="primary-details">
+          <h1>Tonic</h1>
+          <div class="canopy">
+            <p class="dark">CANOPY</p>
+            <img src="./images/counter.svg" alt="">
+            <p class="">Back End Dev</p>
+            <img src="./images/counter.svg" alt="">
+            <p>2015</p>
           </div>
+          <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+          <ul class="languages">
+            <li><span>HTML</span></li>
+            <li><span>CSS</span></li>
+            <li><span>JavaScript</span></li>
+          </ul>
+          <div class="see-project-btn">See project</div>
         </div>
-        <div class="card">
-          <img src="/images/snap3.svg" alt="">
-          <h3>Tonic</h3>
-          <img class="canopy" src="/images/canopy.svg" alt="">
-          <p class="para">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-          <img class="tags" src="/images/tags.svg" alt="">
-          <div class="see">
-            <p>See Project</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="/images/snap4.svg" alt="">
-          <h3>Multi-Post<br>Stories</h3>
-          <img class="canopy" src="/images/canopy.svg" alt="">
-          <p class="para">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-          <img class="tags" src="/images/tags.svg" alt="">
-          <div class="see">
-            <p>See Project</p>
+      </div>
+    </div>
+      <div class="card">
+        <img class="mobile" src="./images/second.svg" alt="">
+        <img class="desktop opposite" src="./images/desktop/card 2.svg" alt="">
+        <div class="project-details">
+          <div class="primary-details">
+            <h1 class="mobile">Multi-Post<br>Stories</h1>
+            <h1 class="desktop">Multi-Post Stories</h1>
+            <div class="canopy">
+              <p class="dark mobile">CANOPY</p>
+              <p class="dark desktop">Facebook</p>
+              <img src="./images/counter.svg" alt="">
+              <p class="mobile">Back End Dev</p>
+              <p class="desktop">Full Stack Dev</p>
+              <img src="./images/counter.svg" alt="">
+              <p>2015</p>
+            </div>
+            <p class="project-description mobile">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            <p class="project-description desktop">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
+            <ul class="languages">
+              <li><span>HTML</span></li>
+              <li><span class="desktop">Ruby on rails</span></li>
+              <li><span>CSS</span></li>
+              <li><span>JavaScript</span></li>
+            </ul>
+            <div class="see-project-btn">See project</div>
           </div>
         </div>
       </div>
-        <div class="Section2">
-            <div class="Heading">
-                <p class="P">About
-                </br> Myself
-            </p>
+      <div class="card">
+        <img class="mobile" src="./images/third.svg" alt="">
+        <img class="desktop" src="./images/desktop/card 3.svg" alt="">
+        <div class="project-details">
+          <div class="primary-details">
+            <h1 class="mobile">Tonic</h1>
+            <h1 class="desktop">Facebook 360</h1>
+            <div class="canopy">
+              <p class="dark mobile">CANOPY</p>
+              <p class="dark desktop">Facebook</p>
+              <img src="./images/counter.svg" alt="">
+              <p class="mobile">Back End Dev</p>
+              <p class="desktop">Full Stack Dev</p>
+              <img src="./images/counter.svg" alt="">
+              <p>2015</p>
             </div>
-            <div class="paragraph">
-                <p class="P2">
-                    I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.
-                </p>
-            </div>
-            <div class="text">
-                <p class="txt">LET'S CONNECT</p>
-            </div>
-            <div class="socialImg">
-                <img src="/images/social media icons.png" alt="social-media-Icons">
-            </div>
-            <div class="btn">
-                <p class="btnP">Get my resume</p>
-            </div>
-            <div class="lists">
-                <div class="list-lang">
-                  <p>Languages</p>
-                  <img class="arr" src="/images/Icon - Chevron - Down - Larger.png" alt="drop-down">
-                </div>
-                <div class="langs">
-                    <img src="/images/javascriptLogo.png" alt="Logo">
-                    <p>JavaScript</p>
-                  </div>
-                  <div class="langs">
-                    <img src="/images/htmlLogo.png" alt="Logo">
-                    <p>HTML</p>
-                  </div>
-                  <div class="langs">
-                    <img src="/images/cssLogo.png" alt="Logo">
-                    <p>CSS</p>
-                  </div>
-                  <div class="list">
-                    <p>Frameworks</p>
-                    <img class="arr" src="/images/Icon - Chevron - Down - Larger.png" alt="dropDown">
-                  </div>
-                  <div class="list">
-                    <p>Skills</p>
-                    <img class="arr" src="/images/Icon - Chevron - Down - Larger.png" alt="dropDown">
-                  </div>
-            </div>
+            <p class="project-description mobile">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            <p class="project-description desktop">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
+            <ul class="languages">
+              <li><span>HTML</span></li>
+              <li><span class="desktop">Ruby on rails</span></li>
+              <li><span>CSS</span></li>
+              <li><span>JavaScript</span></li>
+            </ul>
+            <div class="see-project-btn">See project</div>
+          </div>
         </div>
-                  <div class="c-bg">
-                    <div class="contact">
-                      <h1>Contact Me</h1>
-                      <p>
-                        If you have an application you are interested in developing, a feature that you need built or a project that needs coding. <br>I'd love to help with it!
-                      </p>
-                      <form class="form" action="https://formspree.io/f/xjvqpqrb" method="POST">
-                          <label for="name"></label>
-                          <input type="text" id="name" class="t" name="user_name" placeholder="write your name here..." maxlength="30" required/>
-                          <label for="mail"></label>
-                          <input type="email" id="mail" class="t" name="user_email" placeholder="write your email here..." pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required/>
-                          <label for="msg"></label>
-                          <textarea id="msg" class="t" name="user_message" placeholder="write your message here..." maxlength="500"></textarea>
-                          <button>Get in Touch</button>
-                      </form>
-                    </div>
-                  </div>
-
-
-
-
-
-
-
-
-
-
+      </div>
+      <div class="card">
+        <img class="mobile" src="./images/fourth.svg" alt="">
+        <img class="desktop opposite" src="./images/desktop/card 4.svg" alt="">
+        <div class="project-details">
+          <div class="primary-details">
+            <h1 class="mobile">Multi-Post<br>Stories</h1>
+            <h1 class="desktop">Uber Navigation</h1>
+            <div class="canopy">
+              <p class="dark mobile">CANOPY</p>
+              <p class="dark desktop">Uber</p>
+              <img src="./images/counter.svg" alt="">
+              <p class="mobile">Back End Dev</p>
+              <p class="desktop">Lead Developer</p>
+              <img src="./images/counter.svg" alt="">
+              <p>2015</p>
+            </div>
+            <p class="project-description mobile ">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            <p class="project-description desktop">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
+            <ul class="languages">
+              <li><span>HTML</span></li>
+              <li><span class="desktop">Ruby on rails</span></li>
+              <li><span>CSS</span></li>
+              <li><span>JavaScript</span></li>
+            </ul>
+            <div class="see-project-btn">See project</div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="about-wrapper">
+    <div class="about-section">
+      <div class="myself-section">
+        <h1>About Myself</h1>
+        <p class="text-content">Hello I'm a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+        <div class="social-media">
+          <div class="connect-btn">Let's Connect</div>
+          <div class="social-icons">
+            <img src="./images/github icon.svg" alt="">
+            <img src="./images/linkedin icon.svg" alt="">
+            <img src="./images/v icon.svg" alt="">
+            <img src="./images/twitter icon.svg" alt="">
+            <img src="./images/m icon.svg" alt="">
+          </div>
+        </div>
+        <div class="resume-btn">Get my resume</div>
+      </div>
+      <div class="skills-section">
+        <div class="lang-section">
+          <div>
+            <p>Languages</p>
+            <img src="./images/down-larger.svg" alt="">
+          </div>
+          <ul class="lang-list">
+            <li><img src="./images/ellipse js.svg" alt=""><p>JavaScript</p></li>
+            <li><img src="./images/ellipse html.svg" alt=""><p>HTML</p></li>
+            <li><img src="./images/ellipse css.svg" alt=""><p>CSS</p></li>
+          </ul>
+        </div>
+        <div class="frame">
+          <p>Frameworks</p>
+          <img src="./images/right-larger.svg" alt="">
+        </div>
+        <div class="separator"></div>
+        <div class="frame">
+          <p>Skills</p>
+          <img src="./images/right-larger.svg" alt="">
+        </div>
+        <div class="separator"></div>
+      </div>
+    </div>
+  </div>
+  <div class="contact-wrapper">
+    <div class="contact-section">
+      <h1>Contact me</h1>
+      <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
+        I'd love to help with it!</p>
+      <form action="https://formspree.io/f/xjvqpqrb" method="post">
+        <input type="text" name="Name" placeholder="write your name here..." maxlength="30" required>
+        <input type="email" name="Email" placeholder="write your email here..." required>
+        <textarea id="message" name="Message" placeholder="write your message here..." maxlength="500" required></textarea>
+        <button class="form-btn" type="submit">Get in touch</button>
+      </form>                
+    </div>
+  </div>
+  </div>
 </body>
 </html>
